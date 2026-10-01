@@ -1,0 +1,15 @@
+{
+  "name": "quiz-game",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Викторина в стиле «Своей игры» с модификациями",
+  "scripts": {
+    "start": "node server.js",
+    "sample": "node make_sample.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "xlsx": "^0.18.5"
+  }
+}
